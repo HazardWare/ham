@@ -2,7 +2,11 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10422"
+<<<<<<< Updated upstream
+	"mapversion" "5"
+=======
 	"mapversion" "4"
+>>>>>>> Stashed changes
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +24,11 @@ viewsettings
 world
 {
 	"id" "1"
+<<<<<<< Updated upstream
+	"mapversion" "5"
+=======
 	"mapversion" "4"
+>>>>>>> Stashed changes
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
