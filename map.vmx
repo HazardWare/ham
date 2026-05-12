@@ -2,11 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10422"
-<<<<<<< Updated upstream
-	"mapversion" "5"
-=======
-	"mapversion" "4"
->>>>>>> Stashed changes
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -24,16 +20,88 @@ viewsettings
 world
 {
 	"id" "1"
-<<<<<<< Updated upstream
-	"mapversion" "5"
-=======
-	"mapversion" "4"
->>>>>>> Stashed changes
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "37"
+		side
+		{
+			"id" "49"
+			"plane" "(384 -128 576) (768 -128 576) (768 -512 576)"
+			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "50"
+			"plane" "(384 -512 256) (768 -512 256) (768 -128 256)"
+			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51"
+			"plane" "(384 -128 576) (384 -512 576) (384 -512 256)"
+			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52"
+			"plane" "(768 -128 256) (768 -512 256) (768 -512 576)"
+			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "53"
+			"plane" "(768 -128 576) (384 -128 576) (384 -128 256)"
+			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "54"
+			"plane" "(768 -512 256) (384 -512 256) (384 -512 576)"
+			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 222 103"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "7"
@@ -498,21 +566,12 @@ world
 	}
 	solid
 	{
-<<<<<<< Updated upstream
-		"id" "37"
+		"id" "39"
 		side
 		{
-			"id" "49"
-			"plane" "(384 -128 576) (768 -128 576) (768 -512 576)"
-			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
-=======
-		"id" "28"
-		side
-		{
-			"id" "49"
-			"plane" "(-896 896 896) (-256 896 896) (-256 256 896)"
+			"id" "55"
+			"plane" "(-896 768 896) (-384 768 896) (-384 256 896)"
 			"material" "TOOLS/TOOLSNODRAW"
->>>>>>> Stashed changes
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -521,14 +580,9 @@ world
 		}
 		side
 		{
-			"id" "50"
-<<<<<<< Updated upstream
-			"plane" "(384 -512 256) (768 -512 256) (768 -128 256)"
-			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
-=======
-			"plane" "(-896 256 384) (-256 256 384) (-256 896 384)"
+			"id" "56"
+			"plane" "(-896 256 512) (-384 256 512) (-384 768 512)"
 			"material" "TOOLS/TOOLSNODRAW"
->>>>>>> Stashed changes
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -537,14 +591,9 @@ world
 		}
 		side
 		{
-			"id" "51"
-<<<<<<< Updated upstream
-			"plane" "(384 -128 576) (384 -512 576) (384 -512 256)"
-			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
-=======
-			"plane" "(-896 896 896) (-896 256 896) (-896 256 384)"
+			"id" "57"
+			"plane" "(-896 768 896) (-896 256 896) (-896 256 512)"
 			"material" "TOOLS/TOOLSNODRAW"
->>>>>>> Stashed changes
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -553,14 +602,9 @@ world
 		}
 		side
 		{
-			"id" "52"
-<<<<<<< Updated upstream
-			"plane" "(768 -128 256) (768 -512 256) (768 -512 576)"
-			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
-=======
-			"plane" "(-256 896 384) (-256 256 384) (-256 256 896)"
+			"id" "58"
+			"plane" "(-384 768 512) (-384 256 512) (-384 256 896)"
 			"material" "TOOLS/TOOLSNODRAW"
->>>>>>> Stashed changes
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -569,14 +613,9 @@ world
 		}
 		side
 		{
-			"id" "53"
-<<<<<<< Updated upstream
-			"plane" "(768 -128 576) (384 -128 576) (384 -128 256)"
-			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
-=======
-			"plane" "(-256 896 896) (-896 896 896) (-896 896 384)"
+			"id" "59"
+			"plane" "(-384 768 896) (-896 768 896) (-896 768 512)"
 			"material" "TOOLS/TOOLSNODRAW"
->>>>>>> Stashed changes
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -585,14 +624,9 @@ world
 		}
 		side
 		{
-			"id" "54"
-<<<<<<< Updated upstream
-			"plane" "(768 -512 256) (384 -512 256) (384 -512 576)"
-			"material" "METAL/METAL_EMERGENCYSTRIPE01A"
-=======
-			"plane" "(-256 256 384) (-896 256 384) (-896 256 896)"
+			"id" "60"
+			"plane" "(-384 256 512) (-896 256 512) (-896 256 896)"
 			"material" "TOOLS/TOOLSNODRAW"
->>>>>>> Stashed changes
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -601,11 +635,7 @@ world
 		}
 		editor
 		{
-<<<<<<< Updated upstream
-			"color" "0 222 103"
-=======
-			"color" "0 240 157"
->>>>>>> Stashed changes
+			"color" "0 220 253"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
